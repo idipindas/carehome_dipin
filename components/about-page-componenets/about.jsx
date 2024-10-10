@@ -11,7 +11,7 @@ import PartnerBrandCard from "../home-page-components/partnerBrandCard";
 import { partnerBrands } from "../../constants/partnerBrands";
 import Showcase2Card from "../showcase2-components/showcase2Card";
 import "./about.css";
-import aboutImg1 from "../../public/images/about1.jpeg";
+import aboutImg1 from "../../public/aboutus.jpeg";
 import { showCase } from "../../constants/showcase";
 import owner from "../../public/images/owner.jpg";
 const AboutPage = () => {
@@ -30,7 +30,7 @@ const AboutPage = () => {
           style={{ maxWidth: 1200 }}
           className="flex gap-10 justify-between items-end max-md:items-center px-10 mx-auto max-md:px-5 max-md:flex-col"
         >
-          <div className="text-white flex flex-col gap-8 max-md:items-center max-md:text-center">
+          <div className="text-balck flex flex-col gap-8 max-md:items-center max-md:text-center">
             {/* <h1 className="text-5xl font-bold">Who We Are</h1>
             <p className="text-xl max-w-md">
               " We provide a compassionate environment where minds are nurtured,
