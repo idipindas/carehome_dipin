@@ -39,7 +39,7 @@ import img13 from '../public/branches/rosemanor2/img3.jpeg'
 // import gal10 from "../public/images/gallery/DSC06592.jpg";
 import { animationVariants } from "../constants/animationVariants";
 import ExculusivePropertyCard from "../components/home-page-components/exculusivePropertyCard";
-
+import galImg from '../public/branches/rosemanor1/img3.jpeg'
 
 const showcase1 = () => {
   useEffect(() => {
@@ -47,7 +47,9 @@ const showcase1 = () => {
   }, []);
   return (
     <div className="overflow-hidden" >
-      <div className="bg-[url(/showcase2-page-images/showcase2-hero-bg.jpg)] bg-no-repeat bg-center bg-cover pt-44 pb-36 max-md:pt-36 max-md:pb-24 flex justify-center items-center text-white">
+      <div className="bg-[url(galImg)] bg-no-repeat bg-center bg-cover pt-44 pb-36 max-md:pt-36 max-md:pb-24 flex justify-center items-center text-white"
+              style={{ backgroundImage: `url(${galImg})` }}
+>
         <motion.h1
           initial="initial"
           whileInView="animate"

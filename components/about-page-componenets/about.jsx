@@ -14,6 +14,7 @@ import "./about.css";
 import aboutImg1 from "../../public/aboutus.jpeg";
 import { showCase } from "../../constants/showcase";
 import owner from "../../public/images/owner.jpg";
+import owner2 from '../../public/images/profileImg.jpg'
 const AboutPage = () => {
   console.log("an", aboutImg1);
   return (
@@ -460,7 +461,7 @@ const AboutPage = () => {
                 >
                   <img
                     className="w-full h-full rounded-lg object-cover mb-2"
-                    src={owner}
+                    src={owner2}
                     alt="img"
                   />
                   {/* <div className=" flex justify-center">
