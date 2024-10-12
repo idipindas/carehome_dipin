@@ -1,55 +1,54 @@
 import { useEffect } from "react";
-import Section from "../components/showcase1-components/section";
-import { showCase } from "../constants/showcase";
+// import Section from "../components/showcase1-components/section";
+// import { showCase } from "../constants/showcase";
 import { motion } from "framer-motion";
 
-import gal1 from "../public/images/gallery/g1.jpg";
-import gal2 from "../public/images/gallery/g2.jpg";
+// import gal1 from "../public/images/gallery/g1.jpg";
+// import gal2 from "../public/images/gallery/g2.jpg";
 
-import gal3 from "../public/images/gallery/g3.jpg";
+// import gal3 from "../public/images/gallery/g3.jpg";
 
-import gal4 from "../public/images/gallery/g4.jpg";
+// import gal4 from "../public/images/gallery/g4.jpg";
 
-import gal5 from "../public/images/gallery/g5.jpg";
+// import gal5 from "../public/images/gallery/g5.jpg";
 
-import gal6 from "../public/images/gallery/g6.jpg";
+// import gal6 from "../public/images/gallery/g6.jpg";
 
-import gal7 from "../public/images/gallery/g7.jpg";
+// import gal7 from "../public/images/gallery/g7.jpg";
 
-import gal8 from "../public/images/gallery/g8.jpg";
-import img1 from '../public/branches/rosemanor/img1.jpeg'
-import img2 from '../public/branches/rosemanor/img2.jpeg'
-import img3 from '../public/branches/rosemanor/img3.jpeg'
-import img4 from '../public/branches/rosemanor/img4.jpeg'
-import img5 from '../public/branches/rosemanor/img5.jpeg'
-import img6 from '../public/branches/rosemanor1/img1.jpeg'
-import img7 from '../public/branches/rosemanor1/img2.jpeg'
-import img8 from '../public/branches/rosemanor1/img3.jpeg'
-import img9 from '../public/branches/rosemanor1/img4.jpeg'
-import img10 from '../public/branches/rosemanor1/img5.jpeg'
-import img11 from '../public/branches/rosemanor2/img1.jpeg'
+// import gal8 from "../public/images/gallery/g8.jpg";
+// import img1 from "../public/branches/rosemanor/img1.jpeg";
+// import img2 from "../public/branches/rosemanor/img2.jpeg";
+// import img3 from "../public/branches/rosemanor/img3.jpeg";
+// import img4 from "../public/branches/rosemanor/img4.jpeg";
+// import img5 from "../public/branches/rosemanor/img5.jpeg";
+// import img6 from "../public/branches/rosemanor1/img1.jpeg";
+// import img7 from "../public/branches/rosemanor1/img2.jpeg";
+// import img8 from "../public/branches/rosemanor1/img3.jpeg";
+// import img9 from "../public/branches/rosemanor1/img4.jpeg";
+// import img10 from "../public/branches/rosemanor1/img5.jpeg";
+// import img11 from "../public/branches/rosemanor2/img1.jpeg";
 
-import img12 from '../public/branches/rosemanor2/img2.jpeg'
+// import img12 from "../public/branches/rosemanor2/img2.jpeg";
 
-import img13 from '../public/branches/rosemanor2/img3.jpeg'
-
-
+// import img13 from "../public/branches/rosemanor2/img3.jpeg";
 
 // import gal9 from "../public/images/gallery/DSC06584.jpg";
 // import gal10 from "../public/images/gallery/DSC06592.jpg";
 import { animationVariants } from "../constants/animationVariants";
 import ExculusivePropertyCard from "../components/home-page-components/exculusivePropertyCard";
-import galImg from '../public/branches/rosemanor1/img3.jpeg'
+// import galImg from "../public/branches/rosemanor1/img3.jpeg";
 
 const showcase1 = () => {
   useEffect(() => {
     document.title = "Showcase 1 - Rosemanor";
   }, []);
   return (
-    <div className="overflow-hidden" >
-      <div className="bg-[url(galImg)] bg-no-repeat bg-center bg-cover pt-44 pb-36 max-md:pt-36 max-md:pb-24 flex justify-center items-center text-white"
-              style={{ backgroundImage: `url(${galImg})` }}
->
+    <div className="overflow-hidden">
+      <div
+        className="bg-[url('/branches/rosemanor1/img3.jpeg')] bg-no-repeat bg-center bg-cover pt-44 pb-36 max-md:pt-36 max-md:pb-24 flex justify-center items-center text-white"
+        // style={{ backgroundImage: `url(${galImg})` }}
+      >
         <motion.h1
           initial="initial"
           whileInView="animate"
@@ -87,7 +86,7 @@ const showcase1 = () => {
           <div className=" flex gap-5 max-lg:flex-col">
             <div className="w-2/4 max-lg:w-full">
               <ExculusivePropertyCard
-                imgSrc={gal1}
+                imgSrc={"/images/gallery/g1.jpg"}
                 // titlePart1={"House in "}
                 // titlePart2={rentHouses[0].name}
                 // pricing={rentHouses[0].price}
@@ -97,7 +96,7 @@ const showcase1 = () => {
             </div>
             <div className="w-2/4 gap-5 flex max-lg:w-full max-sm:flex-col">
               <ExculusivePropertyCard
-                imgSrc={gal2}
+                imgSrc={"/images/gallery/g2.jpg"}
                 // titlePart1={"House in "}
                 // titlePart2={rentHouses[1].name}
                 // pricing={rentHouses[1].price}
@@ -105,7 +104,7 @@ const showcase1 = () => {
                 // href={rentHouses[1].id}
               />
               <ExculusivePropertyCard
-                imgSrc={gal3}
+                imgSrc={"/images/gallery/g3.jpg"}
                 // titlePart1={"House in "}
                 // titlePart2={rentHouses[2].name}
                 // pricing={rentHouses[2].price}
@@ -117,7 +116,7 @@ const showcase1 = () => {
           <div className=" flex gap-5 max-lg:flex-col">
             <div className="w-2/4 gap-5 flex max-lg:w-full max-sm:flex-col">
               <ExculusivePropertyCard
-                imgSrc={gal4}
+                imgSrc={"/images/gallery/g4.jpg"}
                 // titlePart1={"House in "}
                 // titlePart2={rentHouses[3].name}
                 // pricing={rentHouses[3].price}
@@ -125,7 +124,7 @@ const showcase1 = () => {
                 // href={rentHouses[3].id}
               />
               <ExculusivePropertyCard
-                imgSrc={gal5}
+                imgSrc={"/images/gallery/g5.jpg"}
                 // titlePart1={"House in "}
                 // titlePart2={rentHouses[4].name}
                 // pricing={rentHouses[4].price}
@@ -135,7 +134,7 @@ const showcase1 = () => {
             </div>
             <div className="w-2/4 max-lg:w-full">
               <ExculusivePropertyCard
-                imgSrc={gal6}
+                imgSrc={"/images/gallery/g6.jpg"}
                 // titlePart1={"House in "}
                 // titlePart2={rentHouses[5].name}
                 // pricing={rentHouses[5].price}
@@ -144,14 +143,13 @@ const showcase1 = () => {
               />
             </div>
           </div>
-          
         </div>
 
         <div className="flex flex-col gap-5 mt-10 max-sm:mt-8">
           <div className=" flex gap-5 max-lg:flex-col">
             <div className="w-2/4 max-lg:w-full">
               <ExculusivePropertyCard
-                imgSrc={img1}
+                imgSrc={"/branches/rosemanor/img1.jpeg"}
                 // titlePart1={"House in "}
                 // titlePart2={rentHouses[0].name}
                 // pricing={rentHouses[0].price}
@@ -161,7 +159,7 @@ const showcase1 = () => {
             </div>
             <div className="w-2/4 gap-5 flex max-lg:w-full max-sm:flex-col">
               <ExculusivePropertyCard
-                imgSrc={img2}
+                imgSrc={"/branches/rosemanor/img2.jpeg"}
                 // titlePart1={"House in "}
                 // titlePart2={rentHouses[1].name}
                 // pricing={rentHouses[1].price}
@@ -169,7 +167,7 @@ const showcase1 = () => {
                 // href={rentHouses[1].id}
               />
               <ExculusivePropertyCard
-                imgSrc={img3}
+                imgSrc={"/branches/rosemanor/img3.jpeg"}
                 // titlePart1={"House in "}
                 // titlePart2={rentHouses[2].name}
                 // pricing={rentHouses[2].price}
@@ -181,7 +179,7 @@ const showcase1 = () => {
           <div className=" flex gap-5 max-lg:flex-col">
             <div className="w-2/4 gap-5 flex max-lg:w-full max-sm:flex-col">
               <ExculusivePropertyCard
-                imgSrc={img4}
+                imgSrc={"/branches/rosemanor/img4.jpeg"}
                 // titlePart1={"House in "}
                 // titlePart2={rentHouses[3].name}
                 // pricing={rentHouses[3].price}
@@ -189,7 +187,7 @@ const showcase1 = () => {
                 // href={rentHouses[3].id}
               />
               <ExculusivePropertyCard
-                imgSrc={img6}
+                imgSrc={"/branches/rosemanor1/img1.jpeg"}
                 // titlePart1={"House in "}
                 // titlePart2={rentHouses[4].name}
                 // pricing={rentHouses[4].price}
@@ -199,7 +197,7 @@ const showcase1 = () => {
             </div>
             <div className="w-2/4 max-lg:w-full">
               <ExculusivePropertyCard
-                imgSrc={img7}
+                imgSrc={"/branches/rosemanor1/img2.jpeg"}
                 // titlePart1={"House in "}
                 // titlePart2={rentHouses[5].name}
                 // pricing={rentHouses[5].price}
@@ -208,13 +206,12 @@ const showcase1 = () => {
               />
             </div>
           </div>
-          
         </div>
         <div className="flex flex-col gap-5 mt-10 max-sm:mt-8">
           <div className=" flex gap-5 max-lg:flex-col">
             <div className="w-2/4 max-lg:w-full">
               <ExculusivePropertyCard
-                imgSrc={img8}
+                imgSrc={"/branches/rosemanor1/img3.jpeg"}
                 // titlePart1={"House in "}
                 // titlePart2={rentHouses[0].name}
                 // pricing={rentHouses[0].price}
@@ -224,7 +221,7 @@ const showcase1 = () => {
             </div>
             <div className="w-2/4 gap-5 flex max-lg:w-full max-sm:flex-col">
               <ExculusivePropertyCard
-                imgSrc={img9}
+                imgSrc={"/branches/rosemanor1/img4.jpeg"}
                 // titlePart1={"House in "}
                 // titlePart2={rentHouses[1].name}
                 // pricing={rentHouses[1].price}
@@ -232,7 +229,7 @@ const showcase1 = () => {
                 // href={rentHouses[1].id}
               />
               <ExculusivePropertyCard
-                imgSrc={img10}
+                imgSrc={"/branches/rosemanor1/img5.jpeg"}
                 // titlePart1={"House in "}
                 // titlePart2={rentHouses[2].name}
                 // pricing={rentHouses[2].price}
@@ -244,7 +241,7 @@ const showcase1 = () => {
           <div className=" flex gap-5 max-lg:flex-col">
             <div className="w-2/4 gap-5 flex max-lg:w-full max-sm:flex-col">
               <ExculusivePropertyCard
-                imgSrc={img11}
+                imgSrc={"/branches/rosemanor2/img1.jpeg"}
                 // titlePart1={"House in "}
                 // titlePart2={rentHouses[3].name}
                 // pricing={rentHouses[3].price}
@@ -252,7 +249,7 @@ const showcase1 = () => {
                 // href={rentHouses[3].id}
               />
               <ExculusivePropertyCard
-                imgSrc={img12}
+                imgSrc={"/branches/rosemanor2/img2.jpeg"}
                 // titlePart1={"House in "}
                 // titlePart2={rentHouses[4].name}
                 // pricing={rentHouses[4].price}
@@ -262,7 +259,7 @@ const showcase1 = () => {
             </div>
             <div className="w-2/4 max-lg:w-full">
               <ExculusivePropertyCard
-                imgSrc={img13}
+                imgSrc={"/branches/rosemanor2/img3.jpeg"}
                 // titlePart1={"House in "}
                 // titlePart2={rentHouses[5].name}
                 // pricing={rentHouses[5].price}
@@ -271,7 +268,6 @@ const showcase1 = () => {
               />
             </div>
           </div>
-          
         </div>
       </div>
     </div>

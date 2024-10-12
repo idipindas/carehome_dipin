@@ -24,8 +24,8 @@ const ServicesComponent = () => {
   return (
     <>
       <div
-        style={{ backgroundImage: `url(${serviceimg})` }}
-        className=" bg-fixed bg-center bg-cover pt-44 pb-36 max-md:pt-36 max-md:pb-24 "
+        // style={{ backgroundImage: `url(${serviceimg})` }}
+        className=" bg-[url('/images/black2.jpg')] bg-fixed bg-center bg-cover pt-44 pb-36 max-md:pt-36 max-md:pb-24 "
       >
         <motion.div
           initial="initial"

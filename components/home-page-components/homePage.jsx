@@ -38,9 +38,9 @@ import home_cov1 from "../../public/branches/rosemanor/br1_ci.jpg";
 const HomePage = () => {
   const navigate = useNavigate();
   const images = [
-    { url: home1, alt: "Image 1" },
-    { url: careo2, alt: "Image 2" },
-    { url: careo3, alt: "Image 3" },
+    { url: '/images/black1.jpg', alt: "Image 1" },
+    { url: '/careousal/handimg.jpg', alt: "Image 2" },
+    { url: '/careousal/helpimg.jpg', alt: "Image 3" },
   ];
   const settings = {
     dots: true,
@@ -138,7 +138,7 @@ const HomePage = () => {
         {images.map((image, index) => (
           <div key={index}>
             <div
-              className="h-94 flex justify-center items-center"
+              className={"h-94 flex justify-center items-center bg-[url(`${image.url}`)]"}
               style={{
                 backgroundImage: `url(${image.url})`,
                 backgroundSize: "cover",
