@@ -1,8 +1,8 @@
-import b1 from "../public/images/b1.jpeg";
+import b1 from "../public/images/b1.jpeg"
 export const showCase = [
   {
     id: 1,
-    city: "Rosemanor, 18-20 Bensham Manor Road",
+    city: "Rosemanor",
     shortDescription:
       "Each resident receives a customized care plan tailored to their unique needs, ensuring they receive the best possible support.",
     description:
@@ -23,10 +23,14 @@ export const showCase = [
     prevHref: "/",
     nextHref: "/projects/2",
     phone: "020 8239 7518",
+    address:' 18-20 Bensham Manor Road',
+    care_qualityLink:'https://www.cqc.org.uk/location/1-119985766 ',
+
   },
   {
     id: 2,
-    city: " Rosemanor 1, 46 Kempshott Road",
+    city: " Rosemanor 1",
+    address:"46 Kempshott Road",
     shortDescription:
       "Each resident receives a customized care plan tailored to their unique needs, ensuring they receive the best possible support.",
     description:
@@ -46,10 +50,13 @@ export const showCase = [
     prevHref: "/",
     nextHref: "/projects/3",
     phone: "020 8764 8915",
+    care_qualityLink:'https://www.cqc.org.uk/location/1-321755174 ',
+
   },
   {
     id: 3,
-    city: "Rosemanor 2, 41 Brighton Road",
+    city: "Rosemanor 2",
+    address:"41 Brighton Road",
     shortDescription:
       "Each resident receives a customized care plan tailored to their unique needs, ensuring they receive the best possible support.",
     description:
@@ -69,6 +76,8 @@ export const showCase = [
     prevHref: "/projects/2",
     nextHref: "/projects/4",
     phone: "020 8239 7518",
+    care_qualityLink:'https://www.cqc.org.uk/location/1-1635038121',
+
     // map_src:`https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=rose%20manor%2018%20Bensham%20Manor%20Rd,%20Thornton%20Heath%20CR7%207AA,%20United%20Kingdom+(Rose%20Manor)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed`
   },
   // {

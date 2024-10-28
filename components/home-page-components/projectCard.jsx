@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { scrollToTop } from "../../constants/scrollToTop";
 import { animationVariants } from "../../constants/animationVariants";
 import { motion } from "framer-motion";
-const ProjectCard = ({ src, title, href }) => {
+const ProjectCard = ({ src, title, href,address }) => {
   return (
     <div
       style={{ height: 350 }}
@@ -36,7 +36,9 @@ const ProjectCard = ({ src, title, href }) => {
           target="_blank"
           className="text-xl font-medium hover:text-red-500  transition-all"
         >
-          {title}
+          <div className="">{title}</div>
+          <div className="">{address}</div>
+          {/* {title} */}
         </Link>
       </div>
     </div>
