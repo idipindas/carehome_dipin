@@ -38,8 +38,8 @@ import home_cov1 from "../../public/branches/rosemanor/br1_ci.jpg";
 const HomePage = () => {
   const navigate = useNavigate();
   const images = [
-    { url: '/images/black1.jpg', alt: "Image 1" },
-    { url: '/images/black1.jpg', alt: "Image 2" },
+    { url: '/images/retirement1.jpg', alt: "Image 1" },
+    { url: '/images/retirement2.jpg', alt: "Image 2" },
 
     { url: '/images/black1.jpg', alt: "Image 3" },
 
