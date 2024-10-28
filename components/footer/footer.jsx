@@ -5,7 +5,7 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import { scrollToTop } from "../../constants/scrollToTop";
 import logo from "../../public/images/logo.png";
-import emailjs from 'emailjs-com'
+import emailjs from "emailjs-com";
 const Footer = () => {
   const toast = useToast();
   const [btnLoader, setBtnLoader] = useState(false);
@@ -77,17 +77,22 @@ const Footer = () => {
     setBtnLoader(true);
 
     try {
-     const response =await  emailjs.send("service_7y68v5w","template_qdgg4sk",{
-        firstName: formData?.firstName,
-        to_name: "Reosemanor",
-        lastName: formData?.lastName,
-        email: formData?.email,
-        phone: formData?.phoneNo,
-        message: formData?.message,
-        reply_to: "Reosemanor",
-        subject :"Careers"
-        },"nj0Q-d8XDd1R5XVgh");
-  
+      const response = await emailjs.send(
+        "service_7y68v5w",
+        "template_qdgg4sk",
+        {
+          firstName: formData?.firstName,
+          to_name: "Reosemanor",
+          lastName: formData?.lastName,
+          email: formData?.email,
+          phone: formData?.phoneNo,
+          message: formData?.message,
+          reply_to: "Reosemanor",
+          subject: "Careers",
+        },
+        "nj0Q-d8XDd1R5XVgh"
+      );
+
       if (response.status) {
         showToast();
         setBtnLoader(false);
@@ -98,7 +103,6 @@ const Footer = () => {
           email: "",
           message: "",
         });
-      
       } else {
         setBtnLoader(false);
 
@@ -110,7 +114,6 @@ const Footer = () => {
       console.error("Error submitting form:", error);
     }
   };
-
 
   const isValidEmail = (email) => {
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -182,13 +185,12 @@ const Footer = () => {
               At Rosemanor, we prioritize your mental well-being by providing a
               safe and tranquil space. Our compassionate team is dedicated to
               offering personalized care, ensuring you feel supported and
-              understood every step of the way. 
+              understood every step of the way.
               <br />
-              General Enquiries<br>
-              </br>
-020 3960 1005 <br />
-Monday-Friday 9am-5pm <br />
-info@wallacealiving.com
+              General Enquiries<br></br>
+              0207 787 9694 <br />
+              Monday-Friday 9am-5pm <br />
+              info@rosemanorhomes.uk{" "}
             </p>
             <div className="flex text-xl justify-start items-center gap-10 text-red-500">
               <Link target="_blank" to={"https://facebook.com"}>
@@ -234,7 +236,9 @@ info@wallacealiving.com
           </div>
           <p style={{ color: "#696969" }}>
             © Rosemanor. All Rights Reserved 2024. <br />
-            Rosenmanor  is a Limited Company registered in England & wales  under company number  04433986 and whose registered office is 97 Babington Road, Streatham, London, England, SW16 6AN
+            Rosenmanor is a Limited Company registered in England & wales under
+            company number 04433986 and whose registered office is 97 Babington
+            Road, Streatham, London, England, SW16 6AN
           </p>
         </div>
 
@@ -242,8 +246,11 @@ info@wallacealiving.com
           id="contact"
           className="w-2/4 max-lg:w-full flex flex-col h-auto justify-between items-start gap-10 "
         >
-          <h1 className="text-3xl text-white"> Placement Enquiries for Women (Ages 18+)</h1> 
-        
+          <h1 className="text-3xl text-white">
+            {" "}
+            Placement Enquiries for Women (Ages 18+)
+          </h1>
+
           <div className="name w-full gap-8 text-white max-sm:flex-col max-sm:gap-10 mt-3 flex">
             <Input
               pl={3}
