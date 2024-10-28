@@ -20,8 +20,8 @@ const AboutPage = () => {
   return (
     <>
       <div
-        className="bg-[url(aboutImg1)] bg-fixed bg-center bg-cover pt-44 pb-36 max-md:pt-36 max-md:pb-24"
-        style={{ backgroundImage: `url(${aboutImg1})` }}
+        className="bg-[url('/images/service.jpg')] bg-fixed bg-center bg-cover pt-44 pb-36 max-md:pt-36 max-md:pb-24"
+        // style={{ backgroundImage: `url(${aboutImg1})` }}
       >
         <motion.div
           initial="initial"
@@ -31,7 +31,7 @@ const AboutPage = () => {
           style={{ maxWidth: 1200 }}
           className="flex gap-10 justify-between items-end max-md:items-center px-10 mx-auto max-md:px-5 max-md:flex-col"
         >
-          <div className="text-balck flex flex-col gap-8 max-md:items-center max-md:text-center">
+          <div className="text-white flex flex-col gap-8 max-md:items-center max-md:text-center">
             {/* <h1 className="text-5xl font-bold">Who We Are</h1>
             <p className="text-xl max-w-md">
               " We provide a compassionate environment where minds are nurtured,
@@ -254,12 +254,12 @@ const AboutPage = () => {
               whileInView="animate"
               variants={animationVariants.fadeUp}
               viewport={{ once: true, amount: 0.2 }}
-              style={{ height: 250 }}
+              style={{ height: 300 }}
               className="relative w-full mt-6"
             >
               <img
                 className="w-full h-full rounded-lg object-cover mb-2"
-                src={owner}
+                src={'/branches/owners/vadee.jpg'}
                 alt="img"
               />
               <div className=" flex justify-center">
