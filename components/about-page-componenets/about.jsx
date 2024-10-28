@@ -13,7 +13,7 @@ import Showcase2Card from "../showcase2-components/showcase2Card";
 import "./about.css";
 import aboutImg1 from "../../public/aboutus.jpeg";
 import { showCase } from "../../constants/showcase";
-import owner from "../../public/images/owner.jpg";
+import owner from "../../public/branches/owners/avathar.webp";
 import owner2 from '../../public/images/profileImg.jpg'
 const AboutPage = () => {
   console.log("an", aboutImg1);
@@ -392,12 +392,12 @@ const AboutPage = () => {
                   whileInView="animate"
                   variants={animationVariants.fadeUp}
                   viewport={{ once: true, amount: 0.2 }}
-                  style={{ height: 180 }}
+                  style={{ height: 200 }}
                   className="relative w-full mt-2"
                 >
                   <img
                     className="w-full h-full rounded-lg object-cover mb-2"
-                    src={owner}
+                    src={'/branches/owners/selvan2.jpg'}
                     alt="img"
                   />
                   {/* <div className=" flex justify-center">
@@ -456,12 +456,12 @@ const AboutPage = () => {
                   whileInView="animate"
                   variants={animationVariants.fadeUp}
                   viewport={{ once: true, amount: 0.2 }}
-                  style={{ height: 180 }}
+                  style={{ height: 200 }}
                   className="relative w-full mt-2"
                 >
                   <img
                     className="w-full h-full rounded-lg object-cover mb-2"
-                    src={owner2}
+                    src={'/branches/owners/vadee.jpg'}
                     alt="img"
                   />
                   {/* <div className=" flex justify-center">

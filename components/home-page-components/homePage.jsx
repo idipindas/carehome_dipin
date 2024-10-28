@@ -199,7 +199,7 @@ const HomePage = () => {
               viewport={{ once: true, amount: 0.2 }}
             >
               <p className="text-xl">
-              At Rosemanor Homes, we are dedicated to nurturing minds and healing hearts in a compassionate and serene environment. Our highly skilled team is committed to providing personalized care and empathetic support, ensuring the highest standards of mental well-being.
+              Rosemanor Homes, we are dedicated to nurturing minds and healing hearts in a compassionate and serene environment. Our highly skilled team is committed to providing personalized care and empathetic support, ensuring the highest standards of mental well-being.
 <br />
 {/* <br /> */}
 Discover a place where your mental health is our top priority, and experience the difference that dedicated, compassionate care can make.
@@ -543,6 +543,7 @@ Discover a place where your mental health is our top priority, and experience th
                     src={e.coverImage}
                     title={e.city}
                     href={e.id}
+                    address={e?.address}
                   />
                 );
               }

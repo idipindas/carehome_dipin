@@ -54,6 +54,8 @@ const AboutProject = ({ heroImageSrc, attachment, phone }) => {
         >
           <h1 className="text-5xl font-bold">{project.city}</h1>
           <p className="text-xl">{project.shortDescription}</p>
+
+          <a href={project?.care_qualityLink}> <u> Care Quality</u></a>
           <Link to={"/contact"} onClick={scrollToTop}>
             <Button
               content={"Contact Us"}
@@ -62,6 +64,7 @@ const AboutProject = ({ heroImageSrc, attachment, phone }) => {
             />
           </Link>
         </motion.div>
+        
         <motion.div
           initial="initial"
           whileInView="animate"
@@ -108,7 +111,10 @@ const AboutProject = ({ heroImageSrc, attachment, phone }) => {
             </div>
           </div>
         </motion.div>
+
+        
       </div>
+      
       {/* description */}
       <motion.div
         initial="initial"
