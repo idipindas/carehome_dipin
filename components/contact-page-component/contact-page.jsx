@@ -466,13 +466,13 @@ const ContactPage = () => {
               <div>
                 <FaPhone className="rotate-90 text-red-500" />
               </div>
-              <p>02087648915</p>
+              <p> 0207 787 9694</p>
             </div>
             <div className="flex  gap-3 text-xl items-center">
               <div>
                 <FaMapMarkerAlt className="text-red-500" />
               </div>
-              <p>rosemanor@gmail.com</p>
+              <p>info@rosemanorhomes.uk</p>
             </div>
           </div>
         </motion.div>

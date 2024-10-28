@@ -39,8 +39,12 @@ const HomePage = () => {
   const navigate = useNavigate();
   const images = [
     { url: '/images/black1.jpg', alt: "Image 1" },
-    { url: '/careousal/handimg.jpg', alt: "Image 2" },
-    { url: '/careousal/helpimg.jpg', alt: "Image 3" },
+    { url: '/images/black1.jpg', alt: "Image 2" },
+
+    { url: '/images/black1.jpg', alt: "Image 3" },
+
+    // { url: '/images/main-img/handCross.jpg', alt: "Image 2" },
+    // { url: '/images/main-img/home_page_third.jpg', alt: "Image 3" },
   ];
   const settings = {
     dots: true,
@@ -142,7 +146,7 @@ const HomePage = () => {
               style={{
                 backgroundImage: `url(${image.url})`,
                 backgroundSize: "cover",
-                backgroundPosition: "center",
+                // backgroundPosition: "center",
                 height: "600px",
               }}
             >
