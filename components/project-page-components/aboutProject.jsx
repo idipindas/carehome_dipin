@@ -55,7 +55,7 @@ const AboutProject = ({ heroImageSrc, attachment, phone }) => {
           <h1 className="text-5xl font-bold">{project.city}</h1>
           <p className="text-xl">{project.shortDescription}</p>
 
-          <a href={project?.care_qualityLink}> <u> Care Quality</u></a>
+          <a href={project?.care_qualityLink}><img src="/icons/cqc-logo-purple.png" width={'100px'} height={'50px'}/></a>
           <Link to={"/contact"} onClick={scrollToTop}>
             <Button
               content={"Contact Us"}

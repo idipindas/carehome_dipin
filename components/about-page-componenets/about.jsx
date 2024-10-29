@@ -1,20 +1,11 @@
 import React from "react";
-import Button from "../buttons-component/solidbutton";
-import { Link } from "react-router-dom";
-import { FaArrowRight } from "react-icons/fa";
+
 import { motion } from "framer-motion";
 import { animationVariants } from "../../constants/animationVariants";
-import { scrollToTop } from "../../constants/scrollToTop";
-import ReviewCard from "../home-page-components/reviewCard";
-import Carousel from "../home-page-components/carousel";
-import PartnerBrandCard from "../home-page-components/partnerBrandCard";
-import { partnerBrands } from "../../constants/partnerBrands";
-import Showcase2Card from "../showcase2-components/showcase2Card";
+
 import "./about.css";
 import aboutImg1 from "../../public/aboutus.jpeg";
-import { showCase } from "../../constants/showcase";
-import owner from "../../public/branches/owners/avathar.webp";
-import owner2 from '../../public/images/profileImg.jpg'
+
 const AboutPage = () => {
   console.log("an", aboutImg1);
   return (
@@ -259,7 +250,7 @@ const AboutPage = () => {
             >
               <img
                 className="w-full h-full rounded-lg object-cover mb-2"
-                src={'/branches/owners/vadee.jpg'}
+                src={'/branches/owners/vadee3.jpg'}
                 alt="img"
               />
               <div className=" flex justify-center">
@@ -322,7 +313,7 @@ const AboutPage = () => {
                 >
                   <img
                     className="w-full h-full rounded-lg object-cover mb-2"
-                    src={owner}
+                    src={'/branches/owners/krishna.jpg'}
                     alt="img"
                   />
                   {/* <div className=" flex justify-center">
