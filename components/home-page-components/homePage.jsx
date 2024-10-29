@@ -265,13 +265,13 @@ Discover a place where your mental health is our top priority, and experience th
                 }
                 iconAlt={"reliability"}
                 title={"Relationship-Centred"}
-                desc={"Here’s a more professional and polished version: You and your loved ones are at the heart of everything we do"}
+                desc={"You and your loved ones are at the heart of everything we do"}
               />
               <WhatWeDoCard
                 iconSrc={"/icons/communication.png"}
                 iconAlt={"communication"}
                 title={"Rehabilitation"}
-                desc={"At Rosemanor Homes, we are dedicated to providing comprehensive rehabilitation services to support your recovery and enhance your quality of life. Our approach combines specialized therapies and personalized care plans to meet your unique needs."}
+                desc={"Rosemanor Homes, we are dedicated to providing comprehensive rehabilitation services to support your recovery and enhance your quality of life. Our approach combines specialized therapies and personalized care plans to meet your unique needs."}
               />
             </div>
             <div className="flex flex-col gap-7">
@@ -283,7 +283,7 @@ Discover a place where your mental health is our top priority, and experience th
                 iconSrc={"/icons/quality-first.png"}
                 iconAlt={"quality-first"}
                 title={"Loved by Clients"}
-                desc={"At Mental Wellness Home, we prioritize your well-being by understanding your needs, communicating clearly, and delivering personalized, reliable care you can trust."}
+                desc={"Mental Wellness Home, we prioritize your well-being by understanding your needs, communicating clearly, and delivering personalized, reliable care you can trust."}
                 // title={"Loved by Residents"}
                 // desc={"With a 5/5 review score on carehome.co.uk"}
               />
