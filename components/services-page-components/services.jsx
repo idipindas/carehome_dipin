@@ -92,35 +92,57 @@ const ServicesComponent = () => {
 </div>
 
 <div className="flex w-full mb-8 gap-10 flex-col mt-12 items-center justify-center max-md:items-center">
-  <h1 className="text-5xl font-bold title-font text-gray-800">THERAPY SESSIONS</h1>
+  <h1 className="text-5xl font-bold title-font text-gray-800">MENTAL WELLBEING</h1>
 </div>
 
 <div className="grid grid-cols-1 md:grid-cols-2 gap-10 p-10 items-center justify-center max-md:items-center">
   <div className="flex flex-col items-center bg-white shadow-lg rounded-lg p-8 transform transition-transform hover:scale-105">
-    <img src={threapy} alt="" width={60} className="mb-4"/>
-    <h2 className="text-4xl text-center text-red-500 font-semibold">Therapeutic Sessions</h2>
+    {/* <img src={threapy} alt="" width={60} className="mb-4"/> */}
+    <h2 className="text-4xl text-center text-red-500 font-semibold">Massage Therapy</h2>
+  </div>
+ 
+  <div className="flex flex-col items-center bg-white shadow-lg rounded-lg p-8 transform transition-transform hover:scale-105">
+    {/* <img src={counc} alt="" width={60} className="mb-4"/> */}
+    <h2 className="text-4xl text-center text-red-500 font-semibold">Meditation</h2>
   </div>
   <div className="flex flex-col items-center bg-white shadow-lg rounded-lg p-8 transform transition-transform hover:scale-105">
-    <img src={aa} alt="" width={60} className="mb-4"/>
-    <h2 className="text-4xl text-center text-red-500 font-semibold">AA Meetings</h2>
+    {/* <h2 className="text-6xl">🧠</h2> */}
+    <h2 className="text-4xl text-center text-red-500 font-semibold mt-4">Sleep Hygine</h2>
   </div>
   <div className="flex flex-col items-center bg-white shadow-lg rounded-lg p-8 transform transition-transform hover:scale-105">
-    <img src={counc} alt="" width={60} className="mb-4"/>
-    <h2 className="text-4xl text-center text-red-500 font-semibold">Counseling Services</h2>
+    {/* <h2 className="text-6xl">🏃‍♂️</h2> */}
+    <h2 className="text-4xl text-center text-red-500 font-semibold mt-4">Yoga</h2>
   </div>
-  <div className="flex flex-col items-center bg-white shadow-lg rounded-lg p-8 transform transition-transform hover:scale-105">
-    <h2 className="text-6xl">🧠</h2>
-    <h2 className="text-4xl text-center text-red-500 font-semibold mt-4">Psychological Interventions</h2>
-  </div>
-  <div className="flex flex-col items-center bg-white shadow-lg rounded-lg p-8 transform transition-transform hover:scale-105">
-    <h2 className="text-6xl">🏃‍♂️</h2>
-    <h2 className="text-4xl text-center text-red-500 font-semibold mt-4">Physiotherapy</h2>
-  </div>
-  <div className="flex flex-col items-center bg-white shadow-lg rounded-lg p-8 transform transition-transform hover:scale-105">
-    <h2 className="text-6xl">👐</h2>
-    <h2 className="text-4xl text-center text-red-500 font-semibold mt-4">Massage Therapy</h2>
-  </div>
+
 </div>
+
+
+
+<div className="flex w-full mb-8 gap-10 flex-col mt-12 items-center justify-center max-md:items-center">
+  <h1 className="text-5xl font-bold title-font text-gray-800">PHYSICAL HEALTH</h1>
+</div>
+
+<div className="grid grid-cols-1 md:grid-cols-2 gap-10 p-10 items-center justify-center max-md:items-center">
+  <div className="flex flex-col items-center bg-white shadow-lg rounded-lg p-8 transform transition-transform hover:scale-105">
+    {/* <img src={threapy} alt="" width={60} className="mb-4"/> */}
+    <h2 className="text-4xl text-center text-red-500 font-semibold">GP</h2>
+  </div>
+ 
+  <div className="flex flex-col items-center bg-white shadow-lg rounded-lg p-8 transform transition-transform hover:scale-105">
+    {/* <img src={counc} alt="" width={60} className="mb-4"/> */}
+    <h2 className="text-4xl text-center text-red-500 font-semibold">Physiotherapy</h2>
+  </div>
+  <div className="flex flex-col items-center bg-white shadow-lg rounded-lg p-8 transform transition-transform hover:scale-105">
+    {/* <h2 className="text-6xl">🧠</h2> */}
+    <h2 className="text-4xl text-center text-red-500 font-semibold mt-4">Dental Appointment</h2>
+  </div>
+  <div className="flex flex-col items-center bg-white shadow-lg rounded-lg p-8 transform transition-transform hover:scale-105">
+    {/* <h2 className="text-6xl">🏃‍♂️</h2> */}
+    <h2 className="text-4xl text-center text-red-500 font-semibold mt-4">Chiropodist</h2>
+  </div>
+
+</div>
+
 
 <div className="flex w-full mb-8 gap-10 flex-col mt-12 items-center justify-center max-md:items-center">
   <h1 className="text-5xl font-bold title-font text-gray-800">PERSONALISED CARE PLAN</h1>
@@ -136,8 +158,8 @@ const ServicesComponent = () => {
     <h2 className="text-4xl text-center text-red-500 font-semibold mt-4">Cultural Needs</h2>
   </div>
   <div className="flex flex-col items-center bg-white shadow-lg rounded-lg p-8 transform transition-transform hover:scale-105">
-    <h2 className="text-6xl">👁️</h2>
-    <h2 className="text-4xl text-center text-red-500 font-semibold mt-4">Visual Assistance</h2>
+    <h2 className="text-6xl"> 🩼</h2>
+    <h2 className="text-4xl text-center text-red-500 font-semibold mt-4">Mobility Assistance</h2>
   </div>
   <div className="flex flex-col items-center bg-white shadow-lg rounded-lg p-8 transform transition-transform hover:scale-105">
     <h2 className="text-6xl">🗣️</h2>
