@@ -75,7 +75,8 @@ export const showCase = [
     ],
     prevHref: "/projects/2",
     nextHref: "/projects/4",
-    phone: "020 8239 7518",
+    // phone: "020 8239 7518",
+    phone:"0207 787 9694",
     care_qualityLink:'https://www.cqc.org.uk/location/1-1635038121',
 
     // map_src:`https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=rose%20manor%2018%20Bensham%20Manor%20Rd,%20Thornton%20Heath%20CR7%207AA,%20United%20Kingdom+(Rose%20Manor)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed`
