@@ -38,8 +38,8 @@ const ServicesComponent = () => {
           <div className="text-white flex flex-col gap-8 max-md:items-center max-md:text-center">
             <h1 className="text-5xl font-bold">Our Services</h1>
             <p className="text-xl  max-w-md font-[700]">
-              At Rosemanor, we offer comprehensive and compassionate care to
-              support your mental well-being. Our services include personalized
+               we offer comprehensive and compassionate care to
+              support your mentaland physical  well-being. Our services include personalized
               care plans, 24/7 professional support, therapeutic activities,
               individual and group counseling, health and wellness programs, and
               family involvement. We are committed to providing a safe and
@@ -112,6 +112,10 @@ const ServicesComponent = () => {
   <div className="flex flex-col items-center bg-white shadow-lg rounded-lg p-8 transform transition-transform hover:scale-105">
     {/* <h2 className="text-6xl">🏃‍♂️</h2> */}
     <h2 className="text-4xl text-center text-red-500 font-semibold mt-4">Yoga</h2>
+  </div>
+  <div className="flex flex-col items-center bg-white shadow-lg rounded-lg p-8 transform transition-transform hover:scale-105">
+    {/* <h2 className="text-6xl">🏃‍♂️</h2> */}
+    <h2 className="text-4xl text-center text-red-500 font-semibold mt-4">Substance Misuse Support</h2>
   </div>
 
 </div>

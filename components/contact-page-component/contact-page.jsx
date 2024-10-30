@@ -472,7 +472,7 @@ const ContactPage = () => {
               <div>
                 <FaMapMarkerAlt className="text-red-500" />
               </div>
-              <p>info@rosemanorhomes.uk</p>
+              <p>info@rosemanorhomes.co.uk</p>
             </div>
           </div>
         </motion.div>
