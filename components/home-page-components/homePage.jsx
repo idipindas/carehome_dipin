@@ -203,7 +203,7 @@ const HomePage = () => {
               viewport={{ once: true, amount: 0.2 }}
             >
               <p className="text-xl">
-              Rosemanor Homes, we are dedicated to nurturing minds and healing hearts in a compassionate and serene environment. Our highly skilled team is committed to providing personalized care and empathetic support, ensuring the highest standards of mental well-being.
+              Rosemanor Homes is a dedicated heaven for women recovering from mental and physical health challenges. Our compassionate team delivers personalized care and empathetic support within a serene, nurturing environment. We are committed to fostering mental and physical well-being, providing a safe, supportive space where women can heal, grow, and thrive.
 <br />
 {/* <br /> */}
 Discover a place where your mental health is our top priority, and experience the difference that dedicated, compassionate care can make.
@@ -237,9 +237,9 @@ Discover a place where your mental health is our top priority, and experience th
               Love & Care{" "}
             </h2>
             <p className="text-xl">
-              Whatever your needs may be, our proactive and friendly team is
-              always on hand to help you live purposeful and fulfilling days,
-              offering a supportive arm around your shoulders
+           
+Your accessed needs will be met by our proactive and friendly team. 
+We will empower you to live  independently.
             </p>
             {/* <Link onClick={scrollToTop} to={"/about"}>
               <button
@@ -265,13 +265,13 @@ Discover a place where your mental health is our top priority, and experience th
                 }
                 iconAlt={"reliability"}
                 title={"Relationship-Centred"}
-                desc={"You and your loved ones are at the heart of everything we do"}
+                desc={"You and your loved ones are at the heart of everything we delivered"}
               />
               <WhatWeDoCard
                 iconSrc={"/icons/communication.png"}
                 iconAlt={"communication"}
                 title={"Rehabilitation"}
-                desc={"Rosemanor Homes, we are dedicated to providing comprehensive rehabilitation services to support your recovery and enhance your quality of life. Our approach combines specialized therapies and personalized care plans to meet your unique needs."}
+                desc={"Rosemanor Homes, is dedicated to providing comprehensive rehabilitation services to support your recovery and enhance your quality of life. Our approach combines specialized therapies and personalized care plans to meet your unique needs."}
               />
             </div>
             <div className="flex flex-col gap-7">
@@ -283,7 +283,7 @@ Discover a place where your mental health is our top priority, and experience th
                 iconSrc={"/icons/quality-first.png"}
                 iconAlt={"quality-first"}
                 title={"Loved by Clients"}
-                desc={"Mental Wellness Home, we prioritize your well-being by understanding your needs, communicating clearly, and delivering personalized, reliable care you can trust."}
+                desc={"Rosemanor Home empowers our residents by providing clear information about their mental health conditions, fostering understanding and cooperation. We prioritize well-being through personalized, reliable care you can trust. Our commitment to transparency and individualized support helps create a nurturing environment where residents can thrive."}
                 // title={"Loved by Residents"}
                 // desc={"With a 5/5 review score on carehome.co.uk"}
               />
@@ -469,7 +469,7 @@ Discover a place where your mental health is our top priority, and experience th
                   35+
                 </h2>
                 <p className="text-xl">
-                  Years of successful experience in caring With CQC
+                  Years of successful experience in Caring With CQC - Regulated Health and Social Care
                 </p>
               </div>
               {/* <div className="flex flex-col max-lg:justify-center max-lg:items-center">
@@ -631,29 +631,7 @@ Discover a place where your mental health is our top priority, and experience th
 
       {/* partner brand section start */}
       <div className="bg-gray-100 border-t-2 border-black/30  border-dashed">
-        <div
-          style={{ maxWidth: 1200 }}
-          className=" mx-auto flex max-md:flex-col justify-center items-center gap-10 p-10 max-md:px-5  "
-        >
-          {/* <motion.div
-            initial="initial"
-            whileInView="animate"
-            variants={animationVariants.fadeIn}
-            viewport={{ once: true, amount: 0.1 }}
-            className="flex gap-8 flex-wrap justify-center items-center"
-          >
-            {partnerBrands.map((e, i) => {
-              return (
-                <PartnerBrandCard
-                  title={e.title}
-                  src={`/partner-brands/${e.src}.png`}
-                  alt={e.src}
-                  key={i}
-                />
-              );
-            })}
-          </motion.div> */}
-        </div>
+        
       </div>
       {/* partner brand section end */}
     </div>

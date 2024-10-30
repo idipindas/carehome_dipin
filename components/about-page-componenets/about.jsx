@@ -95,7 +95,7 @@ const AboutPage = () => {
               demand for Rosemanor’s unique approach to care led to the
               expansion of the organization. Ms. Shumoogam oversaw the
               establishment of two additional homes, each meticulously designed
-              to replicate the comforting and familial atmosphere of the
+              to replicate the comforting and familiar atmosphere of the
               original Rosemanor Home. These new facilities allowed Rosemanor to
               offer its specialized services, including tailored care plans for
               adults with diverse needs, to a larger community.Ms. Shumoogam's
@@ -226,10 +226,7 @@ const AboutPage = () => {
               What we offer
             </h1> */}
             <p className="text-4xl font-bold mt-5">
-              <span className="text-5xl font-bold title-font w-max">“</span> Our
-              legacy is woven with threads of love, tailored for those
-              recovering from enduring mental illness. As we empower individuals
-              toward full independence, let compassion be our compass.
+              <span className="text-5xl font-bold title-font w-max">“</span> We prioritize a holistic approach to both mental and physical health recovery. Our dedicated team fosters a nurturing environment where individuals can heal and thrive. We offer personalized care plans, therapy sessions, and community support to help every resident achieve optimal well-being.
               <span className="text-5xl font-bold title-font w-max">”</span>
             </p>
           </motion.div>
@@ -255,7 +252,7 @@ const AboutPage = () => {
               />
               <div className=" flex justify-center">
                 <h2 className="title-font text-xl font-semibold mb-1 mr-5">
-                  Mrs. Parvadee Shumoogam
+                  Ms. Parvadee Shumoogam
                 </h2>
                 <p className="text-xl">CEO</p>
               </div>
@@ -666,20 +663,14 @@ const AboutPage = () => {
               Exceptional Personalised Care
             </h2>
             <p className="text-2xl mt-1">
-              At Rosemanor, we are dedicated to redefining adult care through
-              highly personalized attention. Our custom care plans are designed
-              to address each individual's specific needs and preferences,
-              ensuring a tailored approach to their well-being. We emphasize
-              delivering outstanding service in a compassionate and respectful
-              environment, striving to enhance the quality of life for every
-              resident with dignity and care.
+            Rosemanor is dedicated to redefining adult care through highly personalized attention. Custom care plans are crafted to address each individual’s specific needs and preferences, ensuring a tailored approach to their mental and physical well-being. Emphasizing outstanding service within a compassionate and respectful environment, we strive to enhance the quality of life for every resident, fostering dignity and care.
             </p>
             <br /> <br />
             <h2 className="text-4xl text-red-500 font-semibold">
-              DEMENTIA CARE
+              Dementia Care
             </h2>
             <p className="text-2xl mt-1">
-              our team of highly trained and experienced professionals excels in
+              Our team of highly trained and experienced professionals excels in
               dementia care, employing evidence-based approaches and advanced
               methodologies to address the complex needs associated with
               dementia. Our expertise in cognitive support and behavioral
@@ -688,14 +679,14 @@ const AboutPage = () => {
               <br />
               We are committed to a person-centered care model, meticulously
               assessing and respecting each individual’s cognitive abilities and
-              personal preferences. At Rosemanor, we cultivate a secure,
+              personal preferences.  we cultivate a secure,
               therapeutic environment that supports mental and emotional
               well-being, ensuring that each day is meaningful and enriching
               through targeted interventions and compassionate care strategies.
             </p>
             <br /> <br />
             <h2 className="text-4xl text-red-500 font-semibold">
-              RESIDENTIAL CARE
+              Residential Care
             </h2>
             <p className="text-2xl mt-1">
               At Rosemanor, residents benefit from spacious, elegantly designed
@@ -711,7 +702,7 @@ const AboutPage = () => {
             </p>
             <br /> <br />
             <h2 className="text-4xl text-red-500 font-semibold">
-              MENTAL HEALTH CARE{" "}
+              Mental Health Care{" "}
             </h2>
             <p className="text-2xl mt-1">
               To enhance mental health, we provide a variety of programs
