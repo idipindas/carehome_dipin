@@ -226,7 +226,10 @@ const AboutPage = () => {
               What we offer
             </h1> */}
             <p className="text-4xl font-bold mt-5">
-              <span className="text-5xl font-bold title-font w-max">“</span> We prioritize a holistic approach to both mental and physical health recovery. Our dedicated team fosters a nurturing environment where individuals can heal and thrive. We offer personalized care plans, therapy sessions, and community support to help every resident achieve optimal well-being.
+              <span className="text-5xl font-bold title-font w-max">“</span> Our
+              legacy is woven with threads of love, tailored for those
+              recovering from enduring mental and Physical illness. As we empower Womens
+              toward full independence, let compassion be our compass.
               <span className="text-5xl font-bold title-font w-max">”</span>
             </p>
           </motion.div>
@@ -449,7 +452,7 @@ const AboutPage = () => {
                 >
                   <img
                     className="w-full h-full rounded-lg object-cover mb-2"
-                    src={'/branches/owners/vadee.jpg'}
+                    src={'/branches/owners/vadee5.jpg'}
                     alt="img"
                   />
                   {/* <div className=" flex justify-center">

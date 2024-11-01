@@ -188,7 +188,7 @@ const Footer = () => {
               General Enquiries<br></br>
               0207 787 9694 <br />
               Monday-Friday 9am-5pm <br />
-              info@rosemanorhomes.uk{" "}
+              info@rosemanorhomes.co.uk{" "}
             </p>
             <img src="public/icons/cqc-logo.png" alt="support icon" style={{ width: "100px", height: "60px", marginTop: "5px" }} />
             <div className="flex text-xl justify-start items-center gap-10 text-red-500">
