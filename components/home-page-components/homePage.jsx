@@ -206,7 +206,7 @@ const HomePage = () => {
               Rosemanor Homes is a dedicated heaven for women recovering from mental and physical health challenges. Our compassionate team delivers personalized care and empathetic support within a serene, nurturing environment. We are committed to fostering mental and physical well-being, providing a safe, supportive space where women can heal, grow, and thrive.
 <br />
 {/* <br /> */}
-Discover a place where your mental health is our top priority, and experience the difference that dedicated, compassionate care can make.
+
               </p>
               <Link onClick={scrollToTop} to={"/about"}>
                 <Button
