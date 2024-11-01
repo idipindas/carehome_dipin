@@ -190,11 +190,11 @@ const Footer = () => {
               Monday-Friday 9am-5pm <br />
               info@rosemanorhomes.co.uk{" "}
             </p>
-            {/* <img
+            <img
                     className="w-full h-full rounded-lg object-cover mb-2"
                     src={'/branches/owners/cqc-logo.png'}
                     alt="img"
-                  /> */}
+                  />
             <div className="flex text-xl justify-start items-center gap-10 text-red-500">
               <Link target="_blank" to={"https://facebook.com"}>
                 <FaFacebookF />
