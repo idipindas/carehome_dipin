@@ -283,7 +283,7 @@ We will empower you to live  independently.
                 iconSrc={"/icons/quality-first.png"}
                 iconAlt={"quality-first"}
                 title={"Loved by Clients"}
-                desc={"Rosemanor Home empowers our residents by providing clear information about their mental health conditions, fostering understanding and cooperation. We prioritize well-being through personalized, reliable care you can trust. Our commitment to transparency and individualized support helps create a nurturing environment where residents can thrive."}
+                desc={"Rosemanor Home empowers residents by providing clear, comprehensive information about their health conditions, fostering understanding and collaboration. We prioritize well-being through personalized, dependable care. Our commitment to transparency and individualized support helps create a nurturing environment where residents can truly thrive."}
                 // title={"Loved by Residents"}
                 // desc={"With a 5/5 review score on carehome.co.uk"}
               />
