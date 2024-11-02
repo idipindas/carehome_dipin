@@ -182,16 +182,15 @@ const Footer = () => {
               <img src={logo} className="w-50 h-40" alt="rosemanor-logo" />
             </a>
             <p style={{ color: "#696969" }}>
-              At Rosemanor, we prioritize your mental well-being by providing a
-              safe and tranquil space. Our compassionate team is dedicated to
-              offering personalized care, ensuring you feel supported and
-              understood every step of the way.
+            We prioritize your mental and physical well-being by providing a safe and tranquil space. Our compassionate team is dedicated to offering personalized care, ensuring you feel supported and understood every step of the way.                                                                                                        
+
               <br />
               General Enquiries<br></br>
               0207 787 9694 <br />
               Monday-Friday 9am-5pm <br />
-              info@rosemanorhomes.uk{" "}
+              info@rosemanorhomes.co.uk{" "}
             </p>
+            <img src="public/icons/cqc-logo.png" alt="support icon" style={{ width: "100px", height: "60px", marginTop: "5px" }} />
             <div className="flex text-xl justify-start items-center gap-10 text-red-500">
               <Link target="_blank" to={"https://facebook.com"}>
                 <FaFacebookF />
@@ -237,7 +236,7 @@ const Footer = () => {
           <p style={{ color: "#696969" }}>
             © Rosemanor. All Rights Reserved 2024. <br />
             Rosenmanor is a Limited Company registered in England & wales under
-            company number 04433986 and whose registered office is 97 Babington
+            company number 04433986 and registered office is 97 Babington
             Road, Streatham, London, England, SW16 6AN
           </p>
         </div>
@@ -248,7 +247,7 @@ const Footer = () => {
         >
           <h1 className="text-3xl text-white">
             {" "}
-            Placement Enquiries for Women (Ages 18+)
+            Placement Enquiries for Female Residents (Aged 18+)
           </h1>
 
           <div className="name w-full gap-8 text-white max-sm:flex-col max-sm:gap-10 mt-3 flex">
