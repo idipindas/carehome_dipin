@@ -72,8 +72,12 @@ const ContactPage = () => {
 
     try {
       const response = await emailjs.send(
-        "service_7y68v5w",
-        "template_qdgg4sk",
+        // "service_7y68v5w",
+        // "template_qdgg4sk", test dipin
+
+        "service_oxen4iv",
+        "template_yrywx95",
+
         {
           firstName: formData?.firstName,
           to_name: "Reosemanor",
@@ -82,7 +86,7 @@ const ContactPage = () => {
           phone: formData?.phoneNo,
           message: formData?.message,
           reply_to: "Reosemanor",
-          subject: subject? subject: `Enquiry Form`
+          subject: subject ? subject : `Enquiry Form`,
         },
         "nj0Q-d8XDd1R5XVgh"
       );
@@ -297,36 +301,37 @@ const ContactPage = () => {
                 } else {
                   setSubject("");
                 }
-              
               }}
-              checked={subject === 'Make An Enquiry'}
+              checked={subject === "Make An Enquiry"}
             />{" "}
             <span className=" mx-2 text-lg"> Make an enquiry</span>
           </div>
           <div className="flex">
             {" "}
             <Checkbox
-            checked={true}
-             onChange={(e) => {
-              if (e) {
-                setSubject("Careers");
-              } else {
-                setSubject("");
-              }
-            }}
-            /> <span className=" mx-2 text-lg ">Careers</span>
+              checked={true}
+              onChange={(e) => {
+                if (e) {
+                  setSubject("Careers");
+                } else {
+                  setSubject("");
+                }
+              }}
+            />{" "}
+            <span className=" mx-2 text-lg ">Careers</span>
           </div>
           <div className="flex">
             {" "}
-            <Checkbox  
-             onChange={(e) => {
-              if (e) {
-                setSubject("Book a visit");
-              } else {
-                setSubject("");
-              }
-            }}
-            /> <span className=" mx-2 text-lg"> Book a visit</span>
+            <Checkbox
+              onChange={(e) => {
+                if (e) {
+                  setSubject("Book a visit");
+                } else {
+                  setSubject("");
+                }
+              }}
+            />{" "}
+            <span className=" mx-2 text-lg"> Book a visit</span>
           </div>
           <div className="name w-full gap-5 text-white max-sm:flex-col flex">
             <Input
@@ -547,12 +552,6 @@ const ContactPage = () => {
           </div>
         </div>
       </div>
-
-
-
-
-
-
     </div>
   );
 };
