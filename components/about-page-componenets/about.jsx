@@ -228,7 +228,7 @@ const AboutPage = () => {
             <p className="text-4xl font-bold mt-5">
               <span className="text-5xl font-bold title-font w-max">“</span> Our
               legacy is woven with threads of love, tailored for those
-              recovering from enduring mental and Physical illness. As we empower Womens
+              recovering from enduring mental and Physical illness. As we empower Women
               toward full independence, let compassion be our compass.
               <span className="text-5xl font-bold title-font w-max">”</span>
             </p>

@@ -190,7 +190,7 @@ const Footer = () => {
               Monday-Friday 9am-5pm <br />
               info@rosemanorhomes.co.uk{" "}
             </p>
-            <img src="public/icons/cqc-logo.png" alt="support icon" style={{ width: "100px", height: "60px", marginTop: "5px" }} />
+            <img src="/icons/cqc-logo-purple.png" width={'100px'} height={'50px'}/>
             <div className="flex text-xl justify-start items-center gap-10 text-red-500">
               <Link target="_blank" to={"https://facebook.com"}>
                 <FaFacebookF />
