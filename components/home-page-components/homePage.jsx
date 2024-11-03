@@ -203,7 +203,7 @@ const HomePage = () => {
               viewport={{ once: true, amount: 0.2 }}
             >
               <p className="text-xl">
-              Rosemanor Home empowers residents by providing clear, comprehensive information about their health conditions, fostering understanding and collaboration. We prioritize well-being through personalized, dependable care. Our commitment to transparency and individualized support helps create a nurturing environment where residents can truly thrive..
+              Rosemanor Homes is a dedicated heaven for women recovering from mental and physical health challenges. Our compassionate team delivers personalized care and empathetic support within a serene, nurturing environment. We are committed to fostering mental and physical well-being, providing a safe, supportive space where women can heal, grow, and thrive.
 <br />
 {/* <br /> */}
 
