@@ -80,12 +80,12 @@ const ContactPage = () => {
 
         {
           firstName: formData?.firstName,
-          to_name: "Reosemanor",
+          to_name: "Rosemanor",
           lastName: formData?.lastName,
           email: formData?.email,
           phone: formData?.phoneNo,
           message: formData?.message,
-          reply_to: "Reosemanor",
+          reply_to: "Rosemanor",
           subject: subject ? subject : `Enquiry Form`,
         },
         // "nj0Q-d8XDd1R5XVgh"
