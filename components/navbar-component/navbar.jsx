@@ -13,7 +13,7 @@ import {
 } from "@chakra-ui/react";
 import { formatCompactNumber } from "../../constants/formatNumber";
 import { scrollToTop } from "../../constants/scrollToTop";
-import rlogo from '../../public/images/logo.png'
+import rlogo from "../../public/images/logo.png";
 const NavBar = ({ navBar2, showCase1Page }) => {
   const [totalQty, setTotalQty] = useState(0);
   const [subTotal, setSubTotal] = useState(0);
@@ -455,13 +455,16 @@ const NavBar = ({ navBar2, showCase1Page }) => {
             >
               News
             </Link> */}
-            <Link
-              onClick={scrollToTop}
-              className="hover:text-red-500 transition-all"
-              to="/showcases/gallery"
-            >
-              Gallery
-            </Link>
+          <Link
+            onClick={() => {
+              hideNav();
+              scrollToTop();
+            }}
+            className="hover:text-red-500 transition-all"
+            to="/showcases/gallery"
+          >
+            Gallery
+          </Link>
           <div className="relative">
             {/* <div
               onClick={() => {
